@@ -30,3 +30,14 @@ lot_summary <- suspension_coil_table %>% group_by(Manufacturing_Lot) %>% summari
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 # End of Deliverable 2.
 #********************************************************************************************************************************************************
+# Deliverable 3: T test on Suspension Coils.
+#**************************************************************
+t.test(suspension_coil_table$PSI,mu=1500)
+# Comparing manufacturing lot with population mean
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot1")$PSI, mu =1500)
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot2")$PSI, mu =1500)
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot3")$PSI, mu =1500)
+#------------------------------------------------------------------------------------------
+# End of Deliverable 3.
+#***************************************************************************************************
+
