@@ -10,7 +10,7 @@ MechaCar,a new prototype from AutoRUs,is suffering from production troubles that
 
 # Results
 
-## Linear Regression to Predict MPG
+## 1. Linear Regression to Predict MPG
 
 ![datahead]()
 
@@ -37,7 +37,7 @@ As data scientists we would be curious about the contribution of each variable t
 * The slope of the linear model is not zero, this can be conclude from the p-value.The p-value as indicated in the above picture is 5.35x10<sup>-11</sup>,which is significantly lower than the value of 0.05.Thus, we can conclude that we can successfully reject our Null hypothesis, in other words there is a significant relationship between mpg and the variables and it is not just random chance.  
 * The multiple linear regression model does predict mpg of MechaCar prototypes with some relative effectiveness.The r-squared value is 0.71, hence 71% of all mpg predictions will be determined by this model.
 
-## Summary Statistics on Suspension Coils.
+## 2. Summary Statistics on Suspension Coils.
 
 ![suspension_coilhead]()
 
@@ -68,7 +68,7 @@ The lot_summary dataframe was written in R Script using the group_by() and the s
 
 The boxplot above illustrates the differences between lots 1, 2 and 3.
 
-### Comparing all manufacturing lots against mean PSI of the population.
+## 3. Comparing all manufacturing lots against mean PSI of the population.
 
 ![one sample t test]()
 
@@ -99,7 +99,7 @@ The image above shows t-test done to compare means of PSI of Lot 3 with a popula
 * Since, the p-value is slightly below the significant value of 0.05,This signifies that PSI of lot 3 is statistically different from the population mean of PSI 1500.
 * Hence, we reject the Null hypothesis. This batch needs to be monitored closely for better results.
 
-## Study Design: MechaCar vs Competition.
+## 4. Study Design: MechaCar vs Competition.
 
 I would like to look into the Selling Price of MechaCar with various new age advanced features and compare it with other competitive manufacturers.
 
