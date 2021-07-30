@@ -29,7 +29,7 @@ The output of multiple linear regression using the lm() function produces the co
 **Statistical Summary:**
 Once we have our multiple linear regression model, we can obtain our statistical metrics using the summary()function.
 
-![summary]()
+![summary](Resources/Summary_stats.png)
 
 As data scientists we would be curious about the contribution of each variable to the multiple linear regression model. To determine which variables provide a significant contribution to the linear model, we looked at the individual variable p-values.Each Pr(>|t|) value in the above figure represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results above,  
 * The vehicle_length, ground_clearance also the intercept provide a non-random amount of variance to the mpg values.In other words, the vehicle_length and ground_clearance has a significant impact on the mpg.As indicated by the yellow arrows in the above image, a linear regression model run on these variables against MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
