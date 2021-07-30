@@ -12,7 +12,7 @@ MechaCar,a new prototype from AutoRUs,is suffering from production troubles that
 
 ## 1. Linear Regression to Predict MPG
 
-![datahead]()
+![datahead](Resources/MechaCar_data_head.png)
 
 *Figure 1: The MechaCar dataset head*
 
