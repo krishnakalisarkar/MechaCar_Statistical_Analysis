@@ -22,7 +22,7 @@ The MechaCar data from MechaCar_mpg.csv was loaded in R studio and the above fig
 
 A multiple linear regression was generated using the built in lm() function.The fuel efficiency (mpg, miles per gallon) is the Dependent variable and to predict the fuel efficiency (mpg) other variables of interest such as vehicle_length, vehicle_weight,spoiler_angle, ground_clearance and AWD  were added as Independent variables to our multiple linear regression model.
 
-![lm]()
+![lm](Resources/linear_model.png)
 
 The output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.
 
