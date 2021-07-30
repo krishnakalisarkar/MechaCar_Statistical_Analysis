@@ -67,3 +67,36 @@ The lot_summary dataframe was written in R Script using the group_by() and the s
 ![Boxplot]()
 
 The boxplot above illustrates the differences between lots 1, 2 and 3.
+
+### Comparing all manufacturing lots against mean PSI of the population.
+
+![one sample t test]()
+
+The one-sample t-test is used to determine whether there is a statistical difference between the means of PSI across all manufacturing lots and a hypothesized, potential population mean of 1,500 PSI. 
+* The metrics produced from the t.test()function in the above image, shows the calculated p-value to be 0.06 for all the manufacturing lots. Since, this value is above the significant value of 0.05 hence, this data is not statistically significant.
+* Therefore, we fail to reject the Null hypothesis. In other words, the mean of all the three manufacturing lots is statistically similar to the presumed population mean of 1500.
+
+### Comparing Lot 1 against mean PSI of the population
+
+![Lot 1]()
+
+The image above shows t-test done to compare means of PSI of Lot 1 with a population mean of 1,500 PSI.
+* The calculated p-value is 1 as shown in the yellow box.
+* Since, the p-value is above the significant value of 0.05,This signifies that the PSI of lot 1 is not statistically different from the population mean
+* Hence, we fail to reject the Null hypothesis.
+
+![Lot 2]()
+
+The image above shows t-test done to compare means of PSI of Lot 2 with a population mean of 1,500 PSI.
+* The calculated p-value is 0.60 as shown in the magenta box.
+* Since, the p-value is above the significant value of 0.05,This signifies that PSI of lot 2 is not statistically different from the population mean of PSI 1500.
+* Hence, we fail to reject the Null hypothesis.
+
+![Lot 3]()
+
+The image above shows t-test done to compare means of PSI of Lot 3 with a population mean of 1,500 PSI.
+* The calculated p-value is 0.04 as shown in the red box.
+* Since, the p-value is slightly below the significant value of 0.05,This signifies that PSI of lot 3 is statistically different from the population mean of PSI 1500.
+* Hence, we reject the Null hypothesis. This batch needs to be monitored closely for better results.
+
+
