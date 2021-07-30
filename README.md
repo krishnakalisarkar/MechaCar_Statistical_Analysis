@@ -55,7 +55,7 @@ A total_summary dataframe was written in R Script using the summarize() function
 
 The above total summary image shows the mean, median, variance and standard deviation of all the 150 samples that are in the dataset.
 
-![lot_summary]()
+![lot_summary](Resources/lot_summary.png)
 
 *Lot Summary image*
 
