@@ -99,4 +99,51 @@ The image above shows t-test done to compare means of PSI of Lot 3 with a popula
 * Since, the p-value is slightly below the significant value of 0.05,This signifies that PSI of lot 3 is statistically different from the population mean of PSI 1500.
 * Hence, we reject the Null hypothesis. This batch needs to be monitored closely for better results.
 
+## Study Design: MechaCar vs Competition.
+
+I would like to look into the Selling Price of MechaCar with various new age advanced features and compare it with other competitive manufacturers.
+
+### Metrics.
+
+In this study, I would like to collect data for comparable models of cars across all major manufacturers for the following metrics:
+
+* Selling Price: Dependent Variable.  
+
+* Engine choice (Electric, Hybrid, Gasoline / Conventional): Independent Variable. 
+
+* Extra Safety Features: Independent Variable
+
+* Resale Value: Independent Variable
+
+* Average Annual Cost of Maintenance: Independent Variable
+
+* Drowsiness Detection System: Independent Variable
+
+* Adaptive Cruise control: Independent Variable
+
+* Automatic Emergency Braking : Independent Variable
+
+### Null and Alternate Hypothesis.
+
+H<sub>0</sub> : There is no statistical difference between the selling price of MechaCar and other competitive manufacturer in these respective genres.
+
+H<sub>a</sub> : There is a statistical difference between the selling price of MechaCar and other competitive manufacturer in these respective genres.
+
+### Statistical Test.
+
+I would like to use Multiple linear regression as a statistical model. A multiple linear regression uses multiple independent variables to account for parts of the total variance observed in the dependent variable.
+
+* Generate multiple linear regression model:
+
+lm(Selling_Price ~ Engine_choice + safety_features + resale + maintenance + drowsiness_detection + cruise_control + Energy_braking, data = data)
+
+* Generate summary statistics:
+
+summary(lm(Selling_Price ~ Engine_choice + safety_features + resale + maintenance + drowsiness_detection + cruise_control + Energy_braking, data = data))) 
+
+### Data.
+
+ We would need to collect data on the selling price of MechaCar with the above metrices, as well as from all major competitor vehicles.Once, we have the data of selling price based on the above mentioned matrices the statistical test can be conducted.
+
+
 
