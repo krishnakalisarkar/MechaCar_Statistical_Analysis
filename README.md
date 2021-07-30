@@ -85,7 +85,7 @@ The image above shows t-test done to compare means of PSI of Lot 1 with a popula
 * Since, the p-value is above the significant value of 0.05,This signifies that the PSI of lot 1 is not statistically different from the population mean
 * Hence, we fail to reject the Null hypothesis.
 
-![Lot 2]()
+![Lot 2](Resources/lot2.png)
 
 The image above shows t-test done to compare means of PSI of Lot 2 with a population mean of 1,500 PSI.
 * The calculated p-value is 0.60 as shown in the magenta box.
