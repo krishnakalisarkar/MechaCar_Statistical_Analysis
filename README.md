@@ -39,7 +39,7 @@ As data scientists we would be curious about the contribution of each variable t
 
 ## 2. Summary Statistics on Suspension Coils.
 
-![suspension_coilhead]()
+![suspension_coilhead](Resources/suspension_coil_head.png)
 
 *Figure 2: The Suspension Coil dataset head*
 
