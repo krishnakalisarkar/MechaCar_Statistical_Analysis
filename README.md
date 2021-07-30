@@ -64,7 +64,7 @@ The lot_summary dataframe was written in R Script using the group_by() and the s
 * Lots 1 and 2 meet the design specifications for the MechaCar suspension coils which dictates that the variance of the suspension coils must not exceed 100 pounds per square inch.The variance of lot 1 and lot 2 are 0.98 and 7.47 respectively. However,Lot 3 doesn't meet this specification as it has a variance of 170.28, which is way above the 100 PSI variance specification.
 * When looking at the entire population of the production lot(Total summary image), the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance specifications of the company.
 
-![Boxplot]()
+![Boxplot](Resources/Boxplot_PSI_lots.png)
 
 The boxplot above illustrates the differences between lots 1, 2 and 3.
 
