@@ -70,7 +70,7 @@ The boxplot above illustrates the differences between lots 1, 2 and 3.
 
 ## 3. Comparing all manufacturing lots against mean PSI of the population.
 
-![one sample t test]()
+![one sample t test](Resources/one_sample_ttest.png)
 
 The one-sample t-test is used to determine whether there is a statistical difference between the means of PSI across all manufacturing lots and a hypothesized, potential population mean of 1,500 PSI. 
 * The metrics produced from the t.test()function in the above image, shows the calculated p-value to be 0.06 for all the manufacturing lots. Since, this value is above the significant value of 0.05 hence, this data is not statistically significant.
