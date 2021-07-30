@@ -49,7 +49,7 @@ The Suspension Coil data from Suspension_Coil.csv was loaded in R studio and the
 
 A total_summary dataframe was written in R Script using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 
-![total_summary]()
+![total_summary](Resources/total_summary.png)
 
 *Total Summary image*
 
