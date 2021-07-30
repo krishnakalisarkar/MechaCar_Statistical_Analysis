@@ -6,7 +6,7 @@
 
 ## Overview of this Project:
 
-MechaCar,a new prototype from AutoRUs,is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management and stakeholders are interested in getting an insight into the production data that might be helpful for the production team.
+MechaCar, a new prototype from AutoRUs,is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management and stakeholders are interested in getting an insight into the production data that might be helpful for the production team.
 
 # Results
 
@@ -16,11 +16,11 @@ MechaCar,a new prototype from AutoRUs,is suffering from production troubles that
 
 *Figure 1: The MechaCar dataset head*
 
-The MechaCar data from MechaCar_mpg.csv was loaded in R studio and the above figure shows the head of the dataframe. The attributes of the dataframe are vehicle_length, vehicle_weight,spoiler_angle, ground_clearance,AWD and mpg.
+The MechaCar data from MechaCar_mpg.csv was loaded in R studio and the above figure shows the head of the dataframe. The attributes of the dataframe are vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD and mpg.
 
 **Multiple Linear Regression Model.**
 
-A multiple linear regression was generated using the built in lm() function.The fuel efficiency (mpg, miles per gallon) is the Dependent variable and to predict the fuel efficiency (mpg) other variables of interest such as vehicle_length, vehicle_weight,spoiler_angle, ground_clearance and AWD  were added as Independent variables to our multiple linear regression model.
+A multiple linear regression was generated using the built in lm() function.The fuel efficiency (mpg, miles per gallon) is the Dependent variable and to predict the fuel efficiency (mpg) other variables of interest such as vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD  were added as Independent variables to our multiple linear regression model.
 
 ![lm](Resources/linear_model.png)
 
@@ -32,10 +32,10 @@ Once we have our multiple linear regression model, we can obtain our statistical
 ![summary](Resources/Summary_stats.png)
 
 As data scientists we would be curious about the contribution of each variable to the multiple linear regression model. To determine which variables provide a significant contribution to the linear model, we looked at the individual variable p-values.Each Pr(>|t|) value in the above figure represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results above,  
-* The vehicle_length, ground_clearance also the intercept provide a non-random amount of variance to the mpg values.In other words, the vehicle_length and ground_clearance has a significant impact on the mpg. As indicated by the yellow arrows in the above image, a linear regression model run on these variables against MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
-* The r-squared (r<sup>2</sup>) value is also known as the coefficient of determination and represents how well the regression model approximates real-world data points.From over data above as indicated in yellow box, the r-squared value is 0.7149 in our multiple linear regression. This r-squared value indicates that the model is 71% accurate.
-* The slope of the linear model is not zero, this can be conclude from the p-value.The p-value as indicated in the above picture is 5.35x10<sup>-11</sup>,which is significantly lower than the value of 0.05.Thus, we can conclude that we can successfully reject our Null hypothesis, in other words there is a significant relationship between mpg and the variables and it is not just random chance.  
-* The multiple linear regression model does predict mpg of MechaCar prototypes with some relative effectiveness.The r-squared value is 0.71, hence 71% of all mpg predictions will be determined by this model.
+* The vehicle_length, ground_clearance also the intercept provide a non-random amount of variance to the mpg values.In other words, the vehicle_length and ground_clearance has a significant impact on the mpg. As indicated by the yellow arrows in the above image, a linear regression model run on these variables against MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup> respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
+* The r-squared (r<sup>2</sup>) value is also known as the coefficient of determination and represents how well the regression model approximates real-world data points.From the data above as indicated in yellow box, the r-squared value is 0.7149 in our multiple linear regression. This r-squared value indicates that the model is 71% accurate.
+* The slope of the linear model is not zero, this can be conclude from the p-value.The p-value as indicated in the above picture is 5.35x10<sup>-11</sup>, which is significantly lower than the value of 0.05.Thus, we can conclude that we can successfully reject our Null hypothesis, in other words there is a significant relationship between mpg and the variables and it is not just random chance.  
+* The multiple linear regression model does predict mpg of MechaCar prototypes with some relative effectiveness. The r-squared value is 0.71, hence 71% of all mpg predictions will be determined by this model.
 
 ## 2. Summary Statistics on Suspension Coils.
 
@@ -135,7 +135,7 @@ I would like to use Multiple linear regression as a statistical model. A multipl
 
 * Generate multiple linear regression model:
 
-lm(Selling_Price ~ Engine_choice + safety_features + resale + maintenance + drowsiness_detection + cruise_control + Energy_braking, data = data)
+lm(Selling_Price ~ Engine_Choice + Safety_Features + Resale + Maintenance + Drowsiness_Detection + Cruise_Control + Energy_Braking, data = data)
 
 * Generate summary statistics:
 
